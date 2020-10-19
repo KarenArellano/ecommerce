@@ -1,0 +1,180 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700");
+
+// Fontawesome
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');
+
+@import url('../css/landing/vendor/bootstrap.min.css');
+@import url('../css/landing/vendor/animate.css');
+@import url('../css/landing/vendor/default-assets/classy-nav.css');
+@import url('../css/landing/vendor/owl.carousel.min.css');
+@import '~lightslider/dist/css/lightslider.min.css';
+@import url('../css/landing/vendor/magnific-popup.css');
+@import url('../css/landing/vendor/price-rangs.css');
+@import url('../css/landing/vendor/font-awesome.min.css');
+@import url('../css/landing/vendor/default-assets/themify-icons.css');
+@import url('../css/landing/vendor/style.css');
+@import url('../css/landing/app.css');
+@import url('../css/landing/complement.css');
+
+@import '~jquery-nice-select/css/nice-select.css';
+
+.owl-nav{
+	display: none!important;
+}
+
+.nice-select:after {
+	height: 10px!important;
+	width: 10px!important;
+}
+
+.product_top_bar
+.single_product_menu
+.input-group {
+	width: 100%;
+}
+
+.price_value input {
+	max-width: 50px;
+}
+
+.breadcrumb-content
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+	content: "|";
+}
+
+.classy-nav-container .classy-navbar .classynav ul li a {
+	text-transform: none;
+}
+
+.text-active {
+	color: #9c1c80;
+
+	&:hover {
+		color: #9c1c80;
+		text-decoration: none;
+	}
+}
+
+.page-item.active .page-link {
+	background-color: #9c1c80;
+	border-color: #9c1c80;
+}
+
+.product_list .section_tittle h2 {
+	text-transform: initial;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+	background-color: #c45c9c!important;
+} 
+
+@media only screen and (min-width: 768px) {
+	/* tablets and desktop */
+	
+	#titleHFix
+	{
+		height: 400px!important;
+		// width: 100%!important;
+	}
+
+	.resizeImg
+	{
+		width: 100%!important;
+	}
+
+	.imglogo
+	{
+		height: 300px;
+	}
+
+}
+
+@media only screen and (max-width: 767px) {
+	/* phones */
+	
+	#titleHFix
+	{
+		height: 300px!important;
+		// width: 100%!important;
+	}
+	
+	.resizeImg
+	{
+		height: 100px!important;
+	}
+
+	.imglogo
+	{
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 767px) and (orientation: portrait) {
+	/* portrait phones */
+
+	.resizeImg
+	{
+		// width: 400px;
+	}
+}
+
+.productSize
+{
+	object-fit: scale-down;
+	object-position: center;
+	width: 100%!important;
+	height: 200px;
+}
+
+#titleHFix
+{
+	width: 100%!important;
+}
+
+.resizePrincipalImg
+{
+	object-fit: scale-down;
+	object-position: center!important;
+	width: 100%!important;
+	padding-top: 70px!important; //70 px is the height of navbar
+}
+
+.singleProduct
+{
+	object-fit: scale-down;
+	object-position: center!important;
+	width: 100%!important;
+	height: 337px;
+}
+
+.imglogo
+{
+	object-fit: scale-down;
+	object-position: top!important;
+	width: 100%!important;
+	padding-top: 70px; //70 px is the height of navbar
+}
+
+.DISCOS_DUROS_PARA_DJ_S{
+	font-family: "Montserrat";
+	color: #FFF;
+	text-align: center;
+	padding-top: 2%;
+  }
+
+  .newPadding
+  {
+	padding: 50px 0!important;
+  }
+
+.logo-card
+{
+	width: 70%;
+	height: 40px;
+	object-fit: scale-down;
+	-o-object-position: left !important;
+	object-position: left !important;
+}
